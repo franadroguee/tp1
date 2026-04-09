@@ -28,3 +28,5 @@ print('+' + '-' * 10 + '+' + '-' * 20 + '+')
 for key in total:
     print (f'|  {key}    |    {total[key]}            |')
     print('+' + '-' * 10 + '+' + '-' * 20 + '+')
+
+
