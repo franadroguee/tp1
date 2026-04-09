@@ -21,12 +21,25 @@ por cada densidad, ejecuta 50 simulaciones
 
 # ADVERTENCIA
 
+## FUNCIONES
 Las funciones se llaman constantemente con todos los parametros de la simulacion 
 (los que sean relevantes a la funcion llamada)
 
 Esto es así para que no sean variables globales sino que sean locales 
 dentro de las funciones en las que se ejecutan y asi poder alterar los parametros 
 cada vez que se ejecuta una simulacion.
+
+## VERSIONES
+
+El repositorio contiene TODAS las versiones por las que pasó este código
+
+Entre las versiones v1 y v3, el código no funciona como debería
+A partir de la v4.0, el código funciona correctamente. Entre las versiones v4.0 a 4.2, el código se simplificó, se optimizó, se escclarizó y se agregaron los ejercicios 1, 2 y 3
+La version 'Version_Final' contiene la última versión de todos los archivos y es autónoma para ejecutarse por si sola. 
+Es la única versión que compete a la entrega del tp.
+
+La version 'jsjajajaj' no debe ser abierta; es irrelevante al tp y son solo configuraciones extremas para versiones pulidas y optimizadas en exeso del código original
+NO HA DE SER EVALUADA
 
 # FUENTES
 
