@@ -15,7 +15,7 @@ for dz in probabilidades:
         os.system('cls')
         print(f'{round(carga, 2)} %')
         print(total)
-        efectividad = not funciones.ejercicio_3(25, 0.12, dz, 0.35, 5, 12, 4, 8, 0.5, 0.18, 0.18, 4, 200)
+        efectividad = not funciones.ejercicio_3(25, 0.12, dz, 0.35, 5, 12, 4, 8, 0.5, 0.18, 0.18, 4, 50)
         if efectividad:
             ejecuciones_efectivas += 1
     
